@@ -15,6 +15,9 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ClassPractice.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
     <ClCompile Include="Unit.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
