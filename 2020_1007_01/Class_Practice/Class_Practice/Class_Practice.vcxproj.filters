@@ -13,6 +13,9 @@
     <ClInclude Include="Unit.h">
       <Filter>ソース ファイル</Filter>
     </ClInclude>
+    <ClInclude Include="Difinition.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ClassPractice.cpp">
