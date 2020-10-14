@@ -43,17 +43,17 @@ int Enemy::GetHp()
 	return m_Hp;
 }
 
-int Enemy::GetPosX()
+float Enemy::GetPosX()
 {
 	return m_PosX;
 }
 
-int Enemy::GetPosY()
+float Enemy::GetPosY()
 {
 	return m_PosY;
 }
 
-int Enemy::GetMoveSpeed()
+float Enemy::GetMoveSpeed()
 {
 	return m_MoveSpeed;
 }

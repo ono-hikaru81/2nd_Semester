@@ -43,17 +43,17 @@ int Player::GetHp()
 	return m_Hp;
 }
 
-int Player::GetPosX()
+float Player::GetPosX()
 {
 	return m_PosX;
 }
 
-int Player::GetPosY()
+float Player::GetPosY()
 {
 	return m_PosY;
 }
 
-int Player::GetMoveSpeed()
+float Player::GetMoveSpeed()
 {
 	return m_MoveSpeed;
 }
