@@ -15,7 +15,8 @@ int main()
 //    std::vector<int> v1 = { 0,1,2 }; // 要素 3、0,1,2で初期化
 //    std::vector<int> v1{ 0,1,2 };    // 要素 3、0,1,2で初期化
 //    std::vector<int> v1{ 6,-1 };     // 要素 6、全てを-1で初期化
-    std::vector<int> v1{ 0,1,2 };    // 要素 8、全てを0で初期化
+    std::vector<int> v1{0,1,2 };    // 要素 8、全てを0で初期化
+    v1.resize(8);
     std::vector<int> v2 = v1;        // v2をv1の内容で初期化
 
     // 値の代入 配列と同じように[]を使える
