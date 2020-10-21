@@ -1,5 +1,5 @@
 #include "Base.h"
-
+#include<stdio.h>
 
 
 Base::Base()
@@ -8,10 +8,20 @@ Base::Base()
 	m_PosX = 0;
 	m_PosY = 0;
 	m_MoveSpeed = 0;
+
+	m_Width = 10;
+	m_Height = 10;
 }
 
 Base::~Base()
 {
+}
+
+bool Base::CheckHit(int x, int y, int width, int height)
+{
+	// âºÇ…ÅAìñÇΩÇÁÇ»Ç©Ç¡ÇΩÇ±Ç∆Ç…Ç∑ÇÈ
+	printf("Base : ìñÇΩÇËÇ‹ÇπÇÒÇ≈ÇµÇΩ!\n");
+	return false;
 }
 
 void Base::SetHp(int hp)

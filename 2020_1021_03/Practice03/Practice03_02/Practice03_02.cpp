@@ -24,9 +24,12 @@ int main()
     printf("==========\n");
 
     pBase = &player;
+    pBase->CheckHit(10, 10, 20, 30);
     PrintStatus("Player", pBase);
 
     pBase = &enemy;
+    pBase->CheckHit(10, 10, 20, 30);
+    enemy.CheckHit(10, 10, 20, 30);
     PrintStatus("Enemy", pBase);
 
     system("pause");

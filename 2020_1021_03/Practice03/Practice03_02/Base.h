@@ -9,6 +9,10 @@ public:
 	virtual ~Base();
 
 public:
+	// 引数の矩形情報と、自分が当たっているかの判定
+	// 関数宣言の前にvirtualを付けると、それは仮想関数になる
+	virtual bool CheckHit(int x, int y, int width, int height);
+
 	void SetHp(int hp);
 	void SetPos(float x, float y);
 	void SetMoveSpeed(float speed);
@@ -23,6 +27,9 @@ private:
 	int m_PosX;
 	int m_PosY;
 	int m_MoveSpeed;
+
+	int m_Width;	// 当たり判定＿幅
+	int m_Height;	// 当たり判定＿高さ
 
 };
 
