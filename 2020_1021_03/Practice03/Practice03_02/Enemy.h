@@ -10,10 +10,10 @@ class Enemy:public Base
 {
 public:
 	Enemy();
-	~Enemy();
+	virtual~Enemy();
 
 public:
-	void Exex();
+	void Exec();
 	void Draw();
 
 public:
@@ -23,22 +23,6 @@ public:
 private:
 	// s“®ŠÇ——p‚Ì•Ï”
 	int m_Routine;
-
-//public:
-//	void SetHp(int hp);
-//	void SetPos(float x, float y);
-//	void SetMoveSpeed(float speed);
-//
-//	int GetHp();
-//	float GetPosX();
-//	float GetPosY();
-//	float GetMoveSpeed();
-//
-//private:
-//	int m_Hp;
-//	int m_PosX;
-//	int m_PosY;
-//	int m_MoveSpeed;
 };
 
 
