@@ -3,6 +3,7 @@
 
 Enemy::Enemy()
 {
+	m_Routine = 0;
 	printf("Enemy : コンストラクタ\n");
 }
 

@@ -28,7 +28,5 @@ private:
 
 };
 
-
-
 #endif // !ENEMY_MANAGER_H
 
