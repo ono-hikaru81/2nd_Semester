@@ -9,7 +9,6 @@ public:
 
 	void SetHp(int hp) { m_Hp = hp; }
 	
-	
 	void SetMp(int mp) { m_Mp = mp; }
 
 	int GetHp() const { return m_Hp; }
